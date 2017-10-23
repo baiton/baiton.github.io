@@ -214,9 +214,10 @@ iframe
 #wrapper
 {
     background: url(../img/background.jpg);
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     background-position: top;
     background-size: cover;
+    height: 100vh;
 }
 #overlay-1
 {
@@ -942,9 +943,11 @@ form
     border-radius: 0;
 }
 
-@media (max-width: 712px) {
-
-}
+/*@media (max-width: 712px) {
+    #wrapper{
+      background-attachment: initial;
+    }
+}*/
 
 @media (max-width: 400px) {
     #port-items .col-xs-6 {
