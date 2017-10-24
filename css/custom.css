@@ -943,6 +943,12 @@ form
     border-radius: 0;
 }
 
+@media (max-width: 1024px) {
+    #wrapper{
+      background-attachment: initial;
+    }
+}
+
 @media (max-width: 712px) {
     #wrapper{
       background-attachment: initial;
