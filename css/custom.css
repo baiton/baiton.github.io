@@ -31,6 +31,20 @@
  *
  *
  */
+
+
+ .trans-element{
+   opacity: 0;
+   transform: translateY(50px);
+   transition: all .5s cubic-bezier(0.68, -0.55, 0.21, 2.85);
+
+ }
+
+ .trans-element.fade-in{
+   opacity: 1;
+   transform: translateY(0);
+ }
+
 @font-face {
     font-family: 'depixelklein';
     src: url('depixelklein-webfont.woff2') format('woff2'),
