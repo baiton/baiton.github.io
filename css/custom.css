@@ -32,6 +32,15 @@
  *
  */
 
+ /****************Pano Stuff***************************/
+
+.pano-iframe{
+overflow: hidden;
+height: 105vh;
+width: 100%;
+position: relative;
+left: 0;
+}
 
  .trans-element{
    opacity: 0;
