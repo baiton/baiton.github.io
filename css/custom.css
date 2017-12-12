@@ -42,6 +42,10 @@ position: relative;
 left: 0;
 }
 
+.relative-parent{
+  position: relative;
+}
+
  .trans-element{
    opacity: 0;
    transform: translateY(50px);
